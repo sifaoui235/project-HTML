@@ -1,0 +1,54 @@
+
+<head>
+    <title>Historique des Mesures</title>
+</head>
+<body bgcolor="#f5f5f5">
+    <h1 align="center">Historique des Mesures</h1>
+
+    <br>
+
+    <table width="90%" align="center" border="1" cellpadding="15" bgcolor="#ffffff" bordercolor="#cccccc">
+        <tr>
+            <td width="50%" bgcolor="#e8f5e9">
+                <label><b>Sélectionner un milieu</b></label><br><br>
+                <select width="100%">
+                    <option>Milieu 1</option>
+                    <option>Milieu 2</option>
+                </select>
+            </td>
+            <td width="50%" bgcolor="#e8f5e9">
+                <label><b>Sélectionner un capteur</b></label><br><br>
+                <select width="100%">
+                    <option>Humidité d'air</option>
+                    <option>Humidité de sol</option>
+                    <option>Température</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table width="90%" align="center" cellpadding="10" bgcolor="#ffffff">
+        <tr>
+            <td>
+                <h3 style="color: #2c5f2d;">Humidité d'air - Historique mensuel</h3>
+                <p style="color: #666666;">Page 1 sur 4: Août 2023 - déc. 2023</p>
+            </td>
+        </tr>
+    </table>
+
+    <table width="90%" align="center" border="1" cellpadding="20" bgcolor="#ffffff" bordercolor="#cccccc">
+        <tr>
+            <td height="350" valign="middle" align="center" bgcolor="#fafafa">
+                <p style="color: #999999; font-size: 18px;">[Graphique de l'humidité d'air]</p>
+                <br>
+                <p style="color: #d32f2f;"><b>📊 humidité d'air (%)</b></p>
+                <br>
+                <p style="color: #666666;">jan 2023 - août 2023 - sept 2023 - oct 2023 - nov 2023 - déc 2023</p>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+</body>
